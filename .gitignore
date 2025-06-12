@@ -1,0 +1,162 @@
+# .NET Backend
+## Build results
+backend/bin/
+backend/obj/
+backend/out/
+backend/publish/
+
+## Database files
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+## User-specific files
+backend/*.rsuser
+backend/*.suo
+backend/*.user
+backend/*.userosscache
+backend/*.sln.docstates
+
+## Visual Studio
+backend/.vs/
+backend/*.vscode/
+
+## Logs
+backend/logs/
+backend/*.log
+
+# Angular Frontend
+## Dependencies
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+## Angular CLI cache
+frontend/.angular/
+
+## IDEs and editors
+frontend/.idea/
+frontend/.project
+frontend/.classpath
+frontend/.c9/
+frontend/*.launch
+frontend/.settings/
+frontend/*.sublime-workspace
+
+## IDE - VSCode
+frontend/.vscode/*
+!frontend/.vscode/settings.json
+!frontend/.vscode/tasks.json
+!frontend/.vscode/launch.json
+!frontend/.vscode/extensions.json
+
+## Build outputs
+frontend/dist/
+frontend/tmp/
+frontend/out-tsc/
+frontend/bazel-out/
+
+## Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+## Coverage directory used by tools like istanbul
+frontend/coverage/
+frontend/*.lcov
+
+## nyc test coverage
+frontend/.nyc_output
+
+## Grunt intermediate storage
+frontend/.grunt
+
+## Bower dependency directory
+frontend/bower_components
+
+## node-waf configuration
+frontend/.lock-wscript
+
+## Compiled binary addons
+frontend/build/Release
+
+## Dependency directories
+frontend/jspm_packages/
+
+## TypeScript cache
+frontend/*.tsbuildinfo
+
+## Optional npm cache directory
+frontend/.npm
+
+## Optional eslint cache
+frontend/.eslintcache
+
+## Optional REPL history
+frontend/.node_repl_history
+
+## Output of 'npm pack'
+frontend/*.tgz
+
+## Yarn Integrity file
+frontend/.yarn-integrity
+
+## dotenv environment variables file
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+## parcel-bundler cache
+frontend/.cache
+frontend/.parcel-cache
+
+## next.js build output
+frontend/.next
+
+## nuxt.js build output
+frontend/.nuxt
+frontend/dist
+
+## vuepress build output
+frontend/.vuepress/dist
+
+## Serverless directories
+frontend/.serverless/
+
+## FuseBox cache
+frontend/.fusebox/
+
+## DynamoDB Local files
+frontend/.dynamodb/
+
+## TernJS port file
+frontend/.tern-port
+
+## Stores VSCode versions used for testing VSCode extensions
+frontend/.vscode-test
+
+# General
+## OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+## Database
+*.db
+*.sqlite
+*.sqlite3 
